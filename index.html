@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login - website sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>login</h1>
+      <from id="loginform">
+        <label for="username">username:</label>
+        <input type="text" id="username" required>
+
+        <label for="fassword">paswworrd:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">login</button>
+      </from>
+      <p id="error" style="color: red; display: none">username atau password salah!</p>
+    </div>
+
+    <script src="script/login.js"></script>
+  </body>
+</html>
